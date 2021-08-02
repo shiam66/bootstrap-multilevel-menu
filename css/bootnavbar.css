@@ -1,3 +1,25 @@
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  right: 3px;
+  top: 40%;
+}
+
+.dropdown-submenu:hover .dropdown-menu,
+.dropdown-submenu:focus .dropdown-menu {
+  display: block;
+  margin-top: -1px;
+  margin-left: -1px;
+  top: 0px;
+  left: 100%;
+  min-height: 100%;
+}
+
+.dropdown-menu {
+  min-height: 200%;
+}
+
+
+
 .dropdown-menu {
     margin-top: 0;
     min-height: 350px;
