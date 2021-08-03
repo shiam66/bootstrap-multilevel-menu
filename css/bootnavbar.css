@@ -18,10 +18,16 @@
   min-height: 200%;
 }
 
+.dropdown-item {
+  position: relative;
+}
 
+.dropdown, .dropend, .dropstart, .dropup {
+    position: unset;
+}
 
 .dropdown-menu {
-    margin-top: 0;
+    margin-top: -7px;
     min-height: 350px;
 }
 .dropdown-menu .dropdown-toggle::after {
